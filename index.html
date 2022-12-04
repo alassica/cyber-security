@@ -17,15 +17,17 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md 6">
-                        <p>Under Attack? - S.O.S Line 800.800.800</p>
+                        <p><img id="phone" src="images/phone-icon.jpg" alt="phone-icon"> Under Attack?  <span> S.O.S Line 800.800.800</span></p>
                     </div>
-
                     <div class="col-md 6">
                             <ul class="secondary-menu">
                                 <li><a href="#">Login</a></li>
                                 <li><a href="#">Contacts</a></li>
                                 <li><a href="#">Presale Service</a></li>
                                 <li><a href="#">Whitepapers</a></li>
+                                <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter" id="twitter"></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f" id="facebook"></i></a>
+                                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram" id="instagram"></i></a>
                             </ul>                       
                     </div>
                 </div>
@@ -72,7 +74,7 @@
 
 
 <div class="services-section">
-
+    <!-- U ovoj sekciji treba popraviti problem sa clip pathom i box-shadowom, ukoliko primjenimo clip path, box-shadow nestaje! -->
     <h3>Our Services</h3>
     <h2>360° Protection</h2>
     <p>Our full range of products and services doesn't leave any <br> space for malicious outrages.</p>
@@ -137,7 +139,7 @@
 
 <div class="customers-say-section">
     <div class="container">
-        <h2>Customers Say</h2>
+        <h2>Customers Say</h2> <img src="images/line.jpg" alt="line-image">
 
         <div class="row">
             <div class="col-md-3">
@@ -227,7 +229,7 @@
 </div>
 
 <div class="contact-section">
-    <h2>15.372 Websites Hacked Daily</h2>
+    <h2>15'372 Websites Hacked Daily</h2>
     <p>Don't be the next! We can help you!</p>
 
     <div class="container contact-container">
@@ -237,14 +239,14 @@
                     <h4>Get In Touch</h4>
                     <h3>Request Your Free Quote: We <br> Will Love To Help You</h3>
 
-                    <h4>Phone Contacts</h4>
+                    <h4 id="white-btn">Phone Contacts</h4>
                     <p>Mobile: (08) 123 456 789</p>
                     <p>Hotline: 1009 678 456</p>
 
-                    <h4>Email Contacts</h4>
-                    <p> <a href="mailto:info@firwl.com">info@firwl.com</a></p>
-                    <p> <a href="mailto:helpme@firwl.com">helpme@firwl.com</a></p>
-                    <p> <a href="mailto:emergency@firwl.com">emergency@firwl.com</a></p>
+                    <h4 id="white-btn">Email Contacts</h4>
+                    <p><a href="mailto:info@firwl.com">info@firwl.com</a></p>
+                    <p><a href="mailto:helpme@firwl.com">helpme@firwl.com</a></p>
+                    <p><a href="mailto:emergency@firwl.com">emergency@firwl.com</a></p>
                 </div>
             </div>
             <div class="col-md-7">
@@ -286,6 +288,7 @@
 </div>
 
 <div class="pricing-section">
+    <!--- U ovoj sekciji treba popraviti problem sa box-shadowom zbog clip patha kao u Our Services section! -->
     <h3>Pricing Plans</h3>
     <h2>Name Your Price</h2>
     <p>With a wide variety of plans we can fit any request.</p>
@@ -294,6 +297,8 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="pricing-plan">
+                    <!-- Kod pricing-plana treba popraviti icons background, po mogucnosti transparent, zbog hovera istih! -->
+                    <img src="images/price-freelancer.jpg" alt="freelancer-icon" id="slika">
                     <h4>Freelancer</h4>
                     <p>Your basic protection</p>
 
@@ -305,10 +310,10 @@
                     </div>
 
                     <ul>
-                        <li>24/7 Support Service</li>
-                        <li>Encrypted transactions</li>
-                        <li>Free hardware included</li>
-                        <li>Automated daily backup</li>
+                        <li><img src="images/yes-btn.jpg" alt="yes-button" class="first-icon"> 24/7 Support Service</li>
+                        <li><img src="images/no-btn.jpg" alt="no-button" class="second-icon">Encrypted transactions</li>
+                        <li><img src="images/no-btn.jpg" alt="no-button" class="third-icon">Free hardware included</li>
+                        <li><img src="images/no-btn.jpg" alt="no-button" class="fourth-icon">Automated daily backup</li>
                     </ul>
 
                     <a href="#" class="main-cta-btn">Order Now</a>
@@ -316,21 +321,22 @@
             </div>
             <div class="col-md-3">
                 <div class="pricing-plan">
-                    <h4>Freelancer</h4>
-                    <p>Your basic protection</p>
+                    <img src="images/retail.jpg" alt="freelancer-icon" id="slika">
+                    <h4>Retail</h4>
+                    <p>For shops and providers</p>
 
                     <div class="price">
                         <span class="dollar">$</span>
-                        <span class="main-num">29</span>
+                        <span class="main-num">39</span>
                         <span class="sec-num">90</span>
                         <span class="month">/M</span>
                     </div>
 
                     <ul>
-                        <li>24/7 Support Service</li>
-                        <li>Encrypted transactions</li>
-                        <li>Free hardware included</li>
-                        <li>Automated daily backup</li>
+                        <li><img src="images/yes-btn.jpg" alt="yes-button" class="first-icon">24/7 Support Service</li>
+                        <li><img src="images/yes-btn.jpg" alt="yes-button" class="second1-icon">Encrypted transactions</li>
+                        <li><img src="images/no-btn.jpg" alt="no-button" class="third-icon">Free hardware included</li>
+                        <li><img src="images/no-btn.jpg" alt="no-button" class="fourth-icon">Automated daily backup</li>
                     </ul>
 
                     <a href="#" class="main-cta-btn">Order Now</a>
@@ -338,21 +344,22 @@
             </div>
             <div class="col-md-3">
                 <div class="pricing-plan">
-                    <h4>Freelancer</h4>
-                    <p>Your basic protection</p>
+                    <img src="images/business.jpg" alt="freelancer-icon" id="slika">
+                    <h4>Business</h4>
+                    <p>Top seller</p>
 
                     <div class="price">
                         <span class="dollar">$</span>
-                        <span class="main-num">29</span>
-                        <span class="sec-num">90</span>
+                        <span class="main-num">49</span>
+                        <span class="sec-num">35</span>
                         <span class="month">/M</span>
                     </div>
 
                     <ul>
-                        <li>24/7 Support Service</li>
-                        <li>Encrypted transactions</li>
-                        <li>Free hardware included</li>
-                        <li>Automated daily backup</li>
+                        <li><img src="images/yes-btn.jpg" alt="yes-button" class="first-icon">24/7 Support Service</li>
+                        <li><img src="images/yes-btn.jpg" alt="yes-button" class="third-icon">Encrypted transactions</li>
+                        <li><img src="images/yes-btn.jpg" alt="yes-button" class="third-icon">Free hardware included</li>
+                        <li><img src="images/no-btn.jpg" alt="no-button" class="fourth-icon">Automated daily backup</li>
                     </ul>
 
                     <a href="#" class="main-cta-btn">Order Now</a>
@@ -360,21 +367,22 @@
             </div>
             <div class="col-md-3">
                 <div class="pricing-plan">
-                    <h4>Freelancer</h4>
-                    <p>Your basic protection</p>
+                    <img src="images/enterprise.jpg" alt="freelancer-icon" id="slika">
+                    <h4>Enterprise</h4>
+                    <p>Unlimited protection</p>
 
                     <div class="price">
                         <span class="dollar">$</span>
-                        <span class="main-num">29</span>
-                        <span class="sec-num">90</span>
+                        <span class="main-num">79</span>
+                        <span class="sec-num">99</span>
                         <span class="month">/M</span>
                     </div>
 
                     <ul>
-                        <li>24/7 Support Service</li>
-                        <li>Encrypted transactions</li>
-                        <li>Free hardware included</li>
-                        <li>Automated daily backup</li>
+                        <li><img src="images/yes-btn.jpg" alt="yes-button" class="first-icon">24/7 Support Service</li>
+                        <li><img src="images/yes-btn.jpg" alt="yes-button" class="second1-icon">Encrypted transactions</li>
+                        <li><img src="images/yes-btn.jpg" alt="yes-button" class="third-icon">Free hardware included</li>
+                        <li><img src="images/yes-btn.jpg" alt="yes-button" class="fourth-icon">Automated daily backup</li>
                     </ul>
 
                     <a href="#" class="main-cta-btn">Order Now</a>
@@ -433,6 +441,7 @@
                 </ul>
             </div>
             <div class="col-md-2 icons">
+                <!-- Napraviti gap, ili padding izmedju ikonica, 4 gore, 4 dolje! -->
                 <h4>Follow Us</h4>
                 <a href="#">
                     <div class="f-icons-1">
@@ -457,7 +466,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <p>&copy Copyright 2022<span>Lasica.</span></p>
+                <p>&copy Copyright 2022 <span> Lasica. </span></p>
             </div>
             <div class="col-md-6">
                 <ul>

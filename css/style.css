@@ -12,7 +12,21 @@ body {
     height: 60px;
     color: white;
     padding-top: 15px;
-    
+}
+
+.pre-header span {
+    color: #ababae;
+}
+
+.pre-header p {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.pre-header #phone {
+    position: relative;
+    left: -5px;
+    top: -1px;
 }
 
 .pre-header .secondary-menu {
@@ -25,7 +39,7 @@ body {
 }
 
 .pre-header .secondary-menu li a {
-    color: #707374;
+    color: #afb1b1;
     text-decoration: none;
     text-transform: uppercase;
     font-family: Tahoma, sans-serif;
@@ -42,8 +56,44 @@ body {
 }
 
 .pre-header .secondary-menu li a:hover {
+    display: inline-block;
     color: #fff;
-    transition: 0.5s;
+    background-color: transparent; 
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.pre-header .secondary-menu i {
+    right: -25px;
+    position: relative;
+    display: inline-block;
+    color: #707374;
+}
+
+.pre-header .secondary-menu #instagram {
+    left: 48px;
+}
+
+.pre-header .secondary-menu #instagram:hover {
+    transition: 0.3s;
+    transform: scale(1.4);
+    color: #fff;
+}
+
+.pre-header .secondary-menu #facebook {
+    left: 35px;
+}
+
+.pre-header .secondary-menu #facebook:hover {
+    transition: 0.3s;
+    transform: scale(1.4);
+    color: #fff;
+}
+
+.pre-header .secondary-menu #twitter:hover {
+    transition: 0.3s;
+    transform: scale(1.4);
+    color: #fff;
 }
 
 .main-nav .main-menu {
@@ -169,7 +219,7 @@ body {
     background-color: #1b1f20;
     -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
     -moz-box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5); 
     color: #fff;
     text-align: center;
     padding-bottom: 40px;
@@ -261,11 +311,32 @@ body {
     padding-bottom: 100px;
 }
 
+.customers-say-section img {
+    width: 1075px;
+    height: 13px;
+    position: relative;
+    top: -25px;
+    right: -226px;
+}
+
+.customers-say-section h2::after {
+    content: '';
+    display: inline-block;
+    background-color: #315df7;
+    width: 6px;
+    height: 6px;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+    right: -6px;
+}
+
 .customers-say-section .testimonials {
     background-size: cover;
     background-position: center;
     height: 360px;
     color: #fff;
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 92% 100%, 0 100%, 0% 50%);
 }
 
 .customers-say-section .testimonials .testimonial-inner {
@@ -305,6 +376,7 @@ body {
     padding-bottom: 15px;
 }
 
+/* Blue square - icon */
 .about-section h3::before {
     content: '';
     display: inline-block;
@@ -374,6 +446,7 @@ body {
 
 .school-section .school-inner .school-overlay {
     background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
     height: 100%;
     padding: 50px;
     color: #fff;
@@ -408,10 +481,12 @@ body {
 
 .school-section .school-inner .school-overlay h4 {
     text-transform: uppercase;
+    font-size: 60px;
 }
 
 .school-section .school-inner .school-overlay p {
     color: #fff;
+    font-weight: 500;
 }
 
 .school-section .school-inner .school-overlay .main-cta-btn:hover {
@@ -440,6 +515,17 @@ body {
     text-align: left;
 }
 
+.contact-section .contact-details #white-btn::before {
+    content: '';
+    display: inline-block;
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+}
+
 .contact-section .contact-details p a {
     color: #fff;
     text-decoration: none;
@@ -448,6 +534,11 @@ body {
 .contact-section .contact-details p a:hover {
     color: #1a7dfa;
     transition: 0.3s;
+}
+
+.contact-section h2 {
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .contact-section .contact-details h3 {
@@ -514,6 +605,14 @@ body {
     padding-bottom: 100px;
 }
 
+.pricing-section .pricing-plan {
+    clip-path: polygon(0 0, 100% 0, 100% 96%, 96% 100%, 0 100%, 0% 50%);
+}
+
+.pricing-section .pricing-plan h4 {
+    text-transform: uppercase;
+}
+
 .pricing-section h3 {
     text-transform: uppercase;
     text-align: center;
@@ -531,7 +630,7 @@ body {
 
 .pricing-section p {
     text-align: center;
-    color: #818181;
+    color: #a7a8a8;
 }
 
 .pricing-section .pricing-plan {
@@ -545,6 +644,11 @@ body {
     padding-bottom: 40px;
     transition: 0.2s;
     margin-top: 50px;
+    background-color: #1c1d1e;
+}
+
+.pricing-section .pricing-plan #slika {
+    padding: 30px;
 }
 
 .pricing-section .pricing-plan:hover {
@@ -574,6 +678,32 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid #fff;
+}
+
+.pricing-section .pricing-plan ul li .first-icon {
+    position: relative;
+    left: -20px;
+    top: -2px;
+}
+
+.pricing-section .pricing-plan ul li .second-icon {
+    position: relative;
+    left: -17px;
+}
+
+.pricing-section .pricing-plan ul li .second1-icon {
+    position: relative;
+    left: -14px;
+}
+
+.pricing-section .pricing-plan ul li .third-icon {
+    position: relative;
+    left: -13px;
+}
+
+.pricing-section .pricing-plan ul li .fourth-icon {
+    position: relative;
+    left: -9px;
 }
 
 .pricing-section .pricing-plan .price {
@@ -641,6 +771,8 @@ body {
 footer {
     padding-top: 100px;
     padding-bottom: 100px;
+    font-family: Tahoma, sans-serif;
+    font-weight: 500;
 }
 
 footer a {
@@ -698,6 +830,13 @@ footer img {
     padding-bottom: 12px;
 }
 
+footer i:hover {
+    color: #1a7ffb;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+
 footer .mail {
     text-transform: none;
 }
@@ -719,6 +858,8 @@ footer .f-icons-2 {
     background-color: #111618;
     padding-top: 25px;
     padding-bottom: 15px;
+    font-family: Tahoma, sans-serif;
+    font-weight: 500;
 }
 
 .after-footer ul {
